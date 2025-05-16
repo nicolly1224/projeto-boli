@@ -2,8 +2,8 @@ function setup() {
   createCanvas(400, 400);
 }
 
-  let xJogador1 = 0;
-  let xJogador2 = 0; 
+  let xJogador1 = 0;// Jogador1
+  let xJogador2 = 0; // Jogador2
     
 function draw(){
   ativaJogo();
@@ -14,7 +14,7 @@ function draw(){
   
 function ativaJogo(){
   if (focused == true){
-  background('blue');
+  background('blue'); // Deixa o fundo azul quando clicado
   } else {
     background('green');
   }
